@@ -38,9 +38,9 @@ cd PhantomRecon
 ### 2. Install Dependencies
 
 Run the install.py script to install all necessary Python dependencies:
-
+```bash
 python3 install.py
-
+```
 This script will install:
 
 requests: For making HTTP requests to external services like IP geolocation and Exploit-DB.
@@ -53,9 +53,9 @@ It will also check that nmap is installed on your system. If it's missing, you w
 ### 3. Run PhantomRecon
 
 Once the dependencies are installed, you can start the tool:
-
+```bash
 python3 PhantomRecon.py
-
+```
 ### Usage:
 
 PhantomRecon will guide you through an interactive process where you will be asked to provide:
