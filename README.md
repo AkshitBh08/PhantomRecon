@@ -30,9 +30,11 @@ Follow these steps to set up PhantomRecon on your local machine:
 ### 1. Clone the Repository
 
 Clone the repository from GitHub:
-'''bash
+
+'''
 git clone https://github.com/AkshitBh08/PhantomRecon.git
 cd PhantomRecon
+'''
 
 ### 2. Install Dependencies
 
