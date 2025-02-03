@@ -12,7 +12,7 @@ from colorama import Fore, Style
 import sys
 
 # 🔹 Configure Shodan API Key
-SHODAN_API_KEY = "ttf4Hclqt9U4ivIU38xDiNvU4PGWzLla"
+SHODAN_API_KEY = "your_shodan_api_key"
 EXPLOIT_DB_API = "https://www.exploit-db.com/search?cve="  # 🔹 Exploit-DB URL
 
 # 🔹 Function to check if the script is running as root
