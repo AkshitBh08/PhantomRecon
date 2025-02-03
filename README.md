@@ -31,11 +31,10 @@ Follow these steps to set up PhantomRecon on your local machine:
 
 Clone the repository from GitHub:
 
-'''
+```bash
 git clone https://github.com/AkshitBh08/PhantomRecon.git
 cd PhantomRecon
-'''
-
+```
 ### 2. Install Dependencies
 
 Run the install.py script to install all necessary Python dependencies:
