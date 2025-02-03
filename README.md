@@ -30,16 +30,19 @@ Follow these steps to set up PhantomRecon on your local machine:
 ### 1. Clone the Repository
 
 Clone the repository from GitHub:
-bash
+
 git clone https://github.com/AkshitBh08/PhantomRecon.git
+
 cd PhantomRecon
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 Run the install.py script to install all necessary Python dependencies:
-python install.py
+
+python3 install.py
 
 This script will install:
+
 requests: For making HTTP requests to external services like IP geolocation and Exploit-DB.
 shodan: For querying Shodan API.
 nmap: For conducting network scans.
@@ -47,23 +50,32 @@ whois: For WHOIS lookups.
 colorama: For colored output in the terminal.
 It will also check that nmap is installed on your system. If it's missing, you will be prompted to install it from nmap.org.
 
-3. Run PhantomRecon
+### 3. Run PhantomRecon
+
 Once the dependencies are installed, you can start the tool:
 
-python PhantomRecon.py
+python3 PhantomRecon.py
 
-Usage:
+### Usage:
 
 PhantomRecon will guide you through an interactive process where you will be asked to provide:
 
 Target(s): IP addresses or hostnames for scanning. You can specify multiple targets, separated by commas.
+
 Scan Type: Choose the type of scan you want to run:
+
 sS (Stealth Scan): A TCP SYN scan that is less detectable by firewalls.
+
 sT (Full TCP Scan): A standard TCP scan.
+
 -A (Aggressive Scan): Scans all services, OS details, and runs vulnerability scripts.
+
 Port Range: The range of ports to scan (default is 1-65535).
+
 Firewall Bypass: Enable firewall bypass techniques (e.g., using decoy hosts).
+
 Passive Mode: Perform passive reconnaissance, only using WHOIS and Shodan information.
+
 Vulnerability Scanning: Enable additional vulnerability scanning using Nmap scripts.
 
 Example Input:
